@@ -1,0 +1,130 @@
+body {
+
+}
+
+/*header div*/
+#header {
+  width: 100%;
+}
+
+#delicious-logo {
+  width: 5%;
+  display: inline-block;
+}
+#delicious-text {
+  display: inline-block;
+  color: #434343;
+}
+#delicious-h3 {
+  font-family: 'Pacifico';
+  font-style: italic;
+  font-size: 24px;
+  margin: 0;
+}
+#delicious-p {
+  margin: 0;
+  font-size: 12px;
+}
+
+#icon-bar {
+  display: inline-block;
+  width: 25%;
+  float: right;
+  padding-top: 15px;
+}
+#icon-bar img {
+  display: inline;
+  float: right;
+  margin: 1px;
+}
+#pint {
+  margin-right: 5px;
+}
+
+#cross-bar {
+  background: repeating-linear-gradient(45deg, LightGrey, LightGrey 1px, #FFF 1px, #FFF 1.9px);
+  height: 10px;
+  width: auto;
+}
+
+#main-title {
+  font-weight: bold;
+}
+.main-title h1 {
+  margin: 0;
+}
+
+.post-print p {
+  margin: 0;
+  display: inline;
+  color: #434343;
+  font-size: 14px;
+}
+#post-print-p1 {
+  float: right;
+}
+
+#main-pic {
+  text-align: center;
+  margin-top: 10px;
+}
+#main-pic img {
+  width: 100%;
+}
+
+#body-para {
+  margin: auto;
+  text-align: center;
+  color: Grey;
+  width: 70%;
+}
+
+#ingredients {
+  background-image: url('img/list-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 10% 15% 20% 15%;
+  margin-bottom: 30px;
+}
+#list1 {
+  margin: 0;
+  list-style-type: square;
+  float: left;
+  font-size: 20px;
+}
+#list2 {
+  margin-top: 0;
+  list-style-type: square;
+  float: right;
+  font-size: 20px;
+}
+
+#bottom-cross-bar {
+  background: repeating-linear-gradient(45deg, LightGrey, LightGrey 1px, #FFF 1px, #FFF 1.9px);
+  height: 10px;
+  width: auto;
+}
+
+#vanessa {
+  width: auto;
+}
+#profile-pic {
+  display: inline-block;
+  width: 10%;
+}
+#profile-para {
+  width: 60%;
+  display: inline-block;
+}
+.profile-para {
+  margin: 0;
+}
+
+#share-recipe {
+  display: inline-block;
+  width: 15%;
+  padding: 2%;
+  background-color: Red;
+  color: #FFF;
+}
