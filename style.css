@@ -84,47 +84,116 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 10% 15% 20% 15%;
-  margin-bottom: 30px;
+  padding: 10% 15% 30% 15%;
+  margin-bottom: 40px;
+  text-align: left;
 }
 #list1 {
   margin: 0;
+  position: relative;
+  bottom: 40px;
   list-style-type: square;
   float: left;
-  font-size: 20px;
+  font-size: 26px;
+  font-family: 'Indie Flower';
+  text-align: left;
 }
 #list2 {
   margin-top: 0;
+  position: relative;
+  bottom: 40px;
   list-style-type: square;
   float: right;
-  font-size: 20px;
+  font-size: 26px;
+  font-family: 'Indie Flower';
+  text-align: left;
+  width: 45%;
 }
 
 #bottom-cross-bar {
   background: repeating-linear-gradient(45deg, LightGrey, LightGrey 1px, #FFF 1px, #FFF 1.9px);
   height: 10px;
   width: auto;
+  margin-bottom: 10px;
 }
 
 #vanessa {
   width: auto;
+  margin-bottom: 50px;
 }
 #profile-pic {
   display: inline-block;
   width: 10%;
+  position: relative;
+  top: 10px;
 }
 #profile-para {
-  width: 60%;
+  width: 70%;
   display: inline-block;
+  text-align: left;
 }
 .profile-para {
+  margin: 0;
+}
+#profile-para-1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #434343;
+  margin: 0;
+}
+#profile-para-2 {
   margin: 0;
 }
 
 #share-recipe {
   display: inline-block;
+  position: relative;
+  bottom: 20px;
   width: 15%;
   padding: 2%;
-  background-color: Red;
+  background-color: IndianRed;
   color: #FFF;
+  text-align: center;
+}
+
+#footer-logo {
+  width: auto;
+  margin-top: 30px;
+}
+.line {
+  width: 48.5%;
+  height: 1px;
+  background-color: Grey;
+}
+#left-line {
+  float: left;
+}
+#right-line {
+  float: right;
+}
+#small-logo {
+  position: relative;
+  bottom: 15px;
+  width: 2%;
+  height: auto;
+  margin: auto;
+  display: inline;
+  text-align: center;
+}
+#small-logo-pic {
+  text-align: center;
+  margin: auto;
+  display: inline;
+  position: relative;
+  left: 5px;
+}
+
+.trademarks {
+  font-size: 18px;
+  color: LightGrey;
+  text-align: center;
+  margin: 0 auto;
+}
+.trademarks p {
+  margin: 0;
 }
