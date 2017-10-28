@@ -1,6 +1,10 @@
 body {
 
 }
+.wrapper {
+  width: auto;
+  margin: 10%;
+}
 
 /*header div*/
 #header {
@@ -72,11 +76,15 @@ body {
   width: 100%;
 }
 
+.body-para {
+  text-indent: 20px;
+}
 #body-para {
   margin: auto;
-  text-align: center;
+  text-align: left;
   color: Grey;
-  width: 70%;
+  width: 100%;
+  font-size: 1.1em;
 }
 
 #ingredients {
@@ -108,6 +116,9 @@ body {
   font-family: 'Indie Flower';
   text-align: left;
   width: 45%;
+}
+.crossed-out {
+  text-decoration: line-through;
 }
 
 #bottom-cross-bar {
