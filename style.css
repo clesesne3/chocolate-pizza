@@ -1,0 +1,209 @@
+body {
+
+}
+.wrapper {
+  width: auto;
+  margin: 10%;
+}
+
+/*header div*/
+#header {
+  width: 100%;
+}
+
+#delicious-logo {
+  width: 5%;
+  display: inline-block;
+}
+#delicious-text {
+  display: inline-block;
+  color: #434343;
+}
+#delicious-h3 {
+  font-family: 'Pacifico';
+  font-style: italic;
+  font-size: 24px;
+  margin: 0;
+}
+#delicious-p {
+  margin: 0;
+  font-size: 12px;
+}
+
+#icon-bar {
+  display: inline-block;
+  width: 25%;
+  float: right;
+  padding-top: 15px;
+}
+#icon-bar img {
+  display: inline;
+  float: right;
+  margin: 1px;
+}
+#pint {
+  margin-right: 5px;
+}
+
+#cross-bar {
+  background: repeating-linear-gradient(45deg, LightGrey, LightGrey 1px, #FFF 1px, #FFF 1.9px);
+  height: 10px;
+  width: auto;
+}
+
+#main-title {
+  font-weight: bold;
+}
+.main-title h1 {
+  margin: 0;
+}
+
+.post-print p {
+  margin: 0;
+  display: inline;
+  color: #434343;
+  font-size: 14px;
+}
+#post-print-p1 {
+  float: right;
+}
+
+#main-pic {
+  text-align: center;
+  margin-top: 10px;
+}
+#main-pic img {
+  width: 100%;
+}
+
+.body-para {
+  text-indent: 20px;
+}
+#body-para {
+  margin: auto;
+  text-align: left;
+  color: Grey;
+  width: 100%;
+  font-size: 1.1em;
+}
+
+#ingredients {
+  background-image: url('img/list-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 10% 15% 30% 15%;
+  margin-bottom: 40px;
+}
+#list1 {
+  margin: 0;
+  position: relative;
+  bottom: 40px;
+  list-style-type: square;
+  float: left;
+  font-size: 26px;
+  font-family: 'Indie Flower';
+  text-align: left;
+}
+#list2 {
+  margin-top: 0;
+  position: relative;
+  bottom: 40px;
+  list-style-type: square;
+  float: right;
+  font-size: 26px;
+  font-family: 'Indie Flower';
+  text-align: left;
+  width: 45%;
+}
+.crossed-out {
+  text-decoration: line-through;
+}
+
+#bottom-cross-bar {
+  background: repeating-linear-gradient(45deg, LightGrey, LightGrey 1px, #FFF 1px, #FFF 1.9px);
+  height: 10px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+#vanessa {
+  width: auto;
+  margin-bottom: 50px;
+}
+#profile-pic {
+  display: inline-block;
+  width: 10%;
+  position: relative;
+  top: 10px;
+}
+#profile-para {
+  width: 70%;
+  display: inline-block;
+  text-align: left;
+}
+.profile-para {
+  margin: 0;
+}
+#profile-para-1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #434343;
+  margin: 0;
+}
+#profile-para-2 {
+  margin: 0;
+}
+
+#share-recipe {
+  display: inline-block;
+  position: relative;
+  bottom: 20px;
+  width: 15%;
+  padding: 2%;
+  background-color: IndianRed;
+  color: #FFF;
+  text-align: center;
+}
+
+#footer-logo {
+  width: auto;
+  margin-top: 30px;
+}
+.line {
+  width: 48.5%;
+  height: 1px;
+  background-color: Grey;
+}
+#left-line {
+  float: left;
+}
+#right-line {
+  float: right;
+}
+#small-logo {
+  position: relative;
+  bottom: 15px;
+  width: 2%;
+  height: auto;
+  margin: auto;
+  display: inline;
+  text-align: center;
+}
+#small-logo-pic {
+  text-align: center;
+  margin: auto;
+  display: inline;
+  position: relative;
+  left: 5px;
+}
+
+.trademarks {
+  font-size: 18px;
+  color: LightGrey;
+  text-align: center;
+  margin: 0 auto;
+}
+.trademarks p {
+  margin: 0;
+}
